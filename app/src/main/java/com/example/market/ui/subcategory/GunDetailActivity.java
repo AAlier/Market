@@ -27,7 +27,7 @@ public class GunDetailActivity extends BaseActivity implements SubcategoryListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        String title = getIntent().getStringExtra(KEY);
+        String title = getIntent().getStringExtra(TITLE);
         String fileName = getIntent().getStringExtra(KEY);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
